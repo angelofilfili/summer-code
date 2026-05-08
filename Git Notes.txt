@@ -19,3 +19,23 @@ git checkout HEAD~4 (Moves back 4 commits and puts u in HEAD)
 git branch -f main HEAD~3 (moves the main branch back 3 commits from the HEAD)
 
 git branch -f main C6 (This forces the main branch to go in the C6 commit)
+
+
+git reset HEAD~1 (This moved the main branch reference back to the previous commit deleting the commit)
+
+git revert HEAD (This makes it to where a new commit is created but it is the same as the previous commit before the one we were on)
+
+git cherry-pick C2 C4 (This takes the specific commits and places them into the current branch (HEAD))
+
+git rebase -i HEAD~4 (This opens up something where you can drop commits and move them in a different order. Also this does the 4 commits from HEAD and before.)
+
+--------------------------------
+
+Setting up repo in terminal - 
+
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/yourname/yourrepo.git
+git push -u origin main
