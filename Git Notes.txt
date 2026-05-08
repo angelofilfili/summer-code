@@ -1,0 +1,21 @@
+git commit (Saves progress)
+
+git branch (creates branch)
+
+git checkout <branch name> (This switches to a new branch so we can commit to it)
+
+git checkout -b [yourbranchname] (Shortcut to create a new branch and check it out)
+
+git merge <branch name> (This merges branches into one)
+
+git rebase branch (Makes a linear ancestry unlike merging)
+
+git checkout <commit> (It's just a safe way to look around or experiment in old commits without risking anything on your actual branch. Going inside a commit (detaching head from branch))
+
+git checkout branch^ (This moves you (HEAD) up to the parent commit)
+
+git checkout HEAD~4 (Moves back 4 commits and puts u in HEAD)
+
+git branch -f main HEAD~3 (moves the main branch back 3 commits from the HEAD)
+
+git branch -f main C6 (This forces the main branch to go in the C6 commit)
