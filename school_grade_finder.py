@@ -4,8 +4,8 @@ def asking_user(scores):
     counter = 0
     while True:
         score = input("Give a score between 0 and 100: ")
-        int_score = int(score)
         if score.isdigit():
+            int_score = int(score)
             if 0 <= int_score <= 100:
                 scores.append(int_score)
                 counter += 1
@@ -20,9 +20,11 @@ def asking_user(scores):
     return scores
 
 def averages(scores):
+    counter = 0
+    total_scores = 0
     for score in scores:
-        total_scores =+ score
-        counter =+ 1
+        total_scores += score
+        counter += 1
     average_score = total_scores / counter
 
     return average_score
