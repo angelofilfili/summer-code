@@ -1,0 +1,1 @@
+This project will be inclusive of all the week 1 and week 2 topics I have learned/refreshed on so far.
