@@ -1,0 +1,13 @@
+Ex:
+HTTP://Icecream.com/API/Flavor
+
+API signifies its the API portion of the endpoint
+Falvor is a resource
+
+REST APIs communicate through HTTP requests to perform standard 
+database functions like creating, reading, updating and deleting records 
+(also known as CRUD) within a resource.
+
+
+
+
