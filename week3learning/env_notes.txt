@@ -1,0 +1,11 @@
+When pushing a code(api key) to github everyone can see it
+which is bad because they can steal it.
+So we create a env file that holds secret values.
+We can load this in Python code like this:
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+api_key = os.getenv("API_KEY")
